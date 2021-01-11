@@ -1,0 +1,59 @@
+<template>
+  <div class="load">
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style scoped>
+.load hr {
+  border: 0;
+  margin: 0;
+  width: 5%;
+  height: 5%;
+  position: absolute;
+  border-radius: 50%;
+
+  animation: spin-data-v-efe9d588 2s ease infinite;
+  top: 42%;
+  left: 44%;
+}
+
+.load :first-child {
+  background: #19a68c;
+  animation-delay: -1.5s;
+}
+.load :nth-child(2) {
+  background: #f63d3a;
+  animation-delay: -1s;
+}
+.load :nth-child(3) {
+  background: #fda543;
+  animation-delay: -0.5s;
+}
+.load :last-child {
+  background: #193b48;
+}
+
+@keyframes spin {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(160%);
+  }
+  50% {
+    transform: translate(160%, 160%);
+  }
+  75% {
+    transform: translate(0, 160%);
+  }
+}</style
+>>
