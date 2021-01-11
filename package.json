@@ -1,6 +1,6 @@
 {
   "name": "@siques/vue-ossfinder",
-  "version": "0.2.9",
+  "version": "0.3.0",
   "author": "he",
   "description": "vue-ossfinder",
   "main": "lib/vue-ossfinder.js",
