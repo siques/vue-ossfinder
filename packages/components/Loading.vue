@@ -8,10 +8,10 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
-<style scoped>
+<style>
 .load hr {
   border: 0;
   margin: 0;
@@ -20,7 +20,7 @@ export default {};
   position: absolute;
   border-radius: 50%;
 
-  animation: spin-data-v-efe9d588 2s ease infinite;
+  animation: spin 2s ease infinite;
   top: 42%;
   left: 44%;
 }
@@ -55,5 +55,5 @@ export default {};
   75% {
     transform: translate(0, 160%);
   }
-}</style
->>
+}
+</style>

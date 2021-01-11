@@ -1,4 +1,4 @@
-// 导入颜色选择器组件
+/* eslint-disable  */
 import OssFinder from './OssFinder'
 
 // 存储组件列表

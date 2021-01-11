@@ -1,14 +1,13 @@
 <template>
   <div id="app">
     <OssFinder
-      ref="finder"
       :credential="credential"
-      :userPath="`post/1/`"
-      :maxKeys="10"
+      :user-path="`post/1/`"
+      :max-keys="10"
       :parallel="3"
-      :partSize="1024 * 1024"
+      :part-size="1024 * 1024"
       @dblclick="dblclick"
-      @getCredential="getCredential"
+      @get-credential="getCredential"
       v-model="visible"
     >
       <template v-slot:activator>
@@ -20,25 +19,25 @@
 
 <script>
 export default {
-  name: "App",
+  name: 'App',
   data() {
     return {
       visible: false,
       credential: {
-        accessKeyId: "",
-        accessKeySecret: "",
-        securityToken: "",
-        expiration: "",
+        accessKeyId: '',
+        accessKeySecret: '',
+        securityToken: '',
+        expiration: '',
 
-        region: "oss-cn-hangzhou",
-        bucket: "shuxie-dev"
-      }
-    };
+        region: 'oss-cn-hangzhou',
+        bucket: 'shuxie-dev',
+      },
+    }
   },
 
   methods: {
     dblclick(file) {
-      console.log("双击事件触发", file);
+      console.log('双击事件触发', file)
     },
     getCredential(done) {
       /* eslint-disable */

@@ -25,6 +25,7 @@
 <script>
 import ImgPreviewDialog from './components/ImgPreviewDialog'
 import MainDialog from './components/MainDialog'
+import './assets/iconfont.js'
 import { isAssetTypeAnImg } from './utils/util'
 export default {
   name: 'OssFinder',
@@ -81,7 +82,7 @@ export default {
       this.$emit('dblclick', file)
     },
     getCredential(done) {
-      this.$emit('getCredential', done)
+      this.$emit('get-credential', done)
     },
   },
 }
