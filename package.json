@@ -3,7 +3,7 @@
   "version": "0.3.0",
   "author": "he",
   "description": "vue-ossfinder",
-  "main": "lib/vue-ossfinder.js",
+  "main": "lib/ossfinder.umd.min.js",
   "keyword": "vue-ossfinder",
   "license": "MIT",
   "repository": "git://github.com/siques/vue-ossfinder",
@@ -16,7 +16,6 @@
     "lib": "vue-cli-service build --target lib --name ossfinder --dest lib packages/OssFinder.vue"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
     "dialog-polyfill": "^0.5.5",
     "vue": "^2.6.11"
   },
