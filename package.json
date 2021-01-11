@@ -1,9 +1,9 @@
 {
   "name": "@siques/vue-ossfinder",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "author": "he",
   "description": "vue-ossfinder",
-  "main": "lib/ossfinder.umd.min.js",
+  "main": "packages/index.js",
   "keyword": "vue-ossfinder",
   "license": "MIT",
   "repository": "git://github.com/siques/vue-ossfinder",
