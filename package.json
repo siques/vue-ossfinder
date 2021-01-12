@@ -1,6 +1,6 @@
 {
   "name": "@siques/vue-ossfinder",
-  "version": "0.3.7",
+  "version": "0.3.58",
   "author": "he",
   "description": "vue-ossfinder",
   "main": "lib/ossfinder.umd.min.js",
