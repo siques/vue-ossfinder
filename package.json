@@ -1,10 +1,10 @@
 {
   "name": "@siques/vue-ossfinder",
-  "version": "0.3.58",
+  "version": "0.3.59",
   "author": "he",
   "description": "vue-ossfinder",
   "main": "lib/ossfinder.umd.min.js",
-  "module": "lib/ossfinder.umd.min.js",
+  "module": "lib/ossfinder.umd.js",
   "keyword": "vue-ossfinder",
   "license": "MIT",
   "repository": "git://github.com/siques/vue-ossfinder",
@@ -13,8 +13,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "wc": "vue-cli-service build --target wc --name ossfinder --dest lib packages/OssFinder.vue",
-    "lib": "vue-cli-service build --target lib --name ossfinder --dest lib packages/index.js"
+    "wc": "yarn run lint &&  vue-cli-service build --target wc --name ossfinder --dest lib packages/OssFinder.vue",
+    "lib": "yarn run lint && vue-cli-service build --target lib --name ossfinder --dest lib packages/index.js"
   },
   "dependencies": {
     "dialog-polyfill": "^0.5.5"
