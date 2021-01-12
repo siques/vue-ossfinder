@@ -22,6 +22,7 @@ pnpm-debug.log*
 *.sln
 *.sw?
 .npmrc
+
 *.common.js
 *.common.js.map
 *.umd.js

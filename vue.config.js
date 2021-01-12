@@ -1,16 +1,18 @@
-module.exports = {
+const config = {
   // 修改 src 目录 为 examples 目录
   pages: {
     index: {
-      entry: 'src/main.js',
-      template: 'public/index.html',
-      filename: 'index.html',
-    },
+      entry: "src/main.js",
+      template: "public/index.html",
+      filename: "index.html"
+    }
   },
   configureWebpack: {
     output: {
-      libraryExport: 'default',
-    },
+      libraryExport: "default"
+    }
   },
-  css: { extract: false },
-}
+  css: { extract: false }
+};
+
+module.exports = config;

@@ -19,25 +19,25 @@
 
 <script>
 export default {
-  name: 'App',
+  name: "App",
   data() {
     return {
       visible: false,
       credential: {
-        accessKeyId: '',
-        accessKeySecret: '',
-        securityToken: '',
-        expiration: '',
+        accessKeyId: "",
+        accessKeySecret: "",
+        securityToken: "",
+        expiration: "",
 
-        region: 'oss-cn-hangzhou',
-        bucket: 'shuxie-dev',
-      },
-    }
+        region: "oss-cn-hangzhou",
+        bucket: "shuxie-dev"
+      }
+    };
   },
 
   methods: {
     dblclick(file) {
-      console.log('双击事件触发', file)
+      console.log("双击事件触发", file);
     },
     getCredential(done) {
       /* eslint-disable */

@@ -5,7 +5,7 @@ import OssFinder from '../packages/index.js'
 
 Vue.config.productionTip = false
 
-Vue.use(OssFinder)
+Vue.component('OssFinder', OssFinder)
 
 new Vue({
   render: (h) => h(App),
