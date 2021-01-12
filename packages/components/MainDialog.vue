@@ -127,6 +127,8 @@ export default {
     visible: function(newVal) {
       if (newVal) {
         this.mainDialog.showModal()
+      } else {
+        this.mainDialog.close()
       }
     },
   },
@@ -366,7 +368,7 @@ export default {
 #ossDialog {
   box-shadow: 4px 7px 11px 5px #0000000f;
   border: none;
-  position: absolute;
+  position: fixed;
   top: 50%;
   transform: translateY(-50%);
   border-radius: 2px;

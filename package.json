@@ -1,6 +1,6 @@
 {
   "name": "@siques/vue-ossfinder",
-  "version": "0.3.60",
+  "version": "0.3.7",
   "author": "he",
   "description": "vue-ossfinder",
   "main": "lib/ossfinder.umd.min.js",
@@ -13,7 +13,6 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "wc": "yarn run lint &&  vue-cli-service build --target wc --name ossfinder --dest lib packages/OssFinder.vue",
     "lib": "yarn run lint && vue-cli-service build --target lib --name ossfinder --dest lib packages/index.js"
   },
   "dependencies": {
